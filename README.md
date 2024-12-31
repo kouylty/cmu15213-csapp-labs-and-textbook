@@ -16,6 +16,13 @@ sudo apt update
 sudo apt install build-essential
 ```
 
+Methods to compile and run C programs using linux terminal is
+```
+gcc -std=c11 prog.c
+gcc -o prog prog.c
+./prog
+```
+
 To resize the screen and enhance user's visualization experience, choose the "Devices" on the menu of the virtualbox and click on the icon "Insert guest additions". Then there appears a disk icon on the table of Ubuntu files, click it and click the "Run software" icon. Then just wait the procedure to finish automatically.
 
 Moreover, it is useful to share files between our Windows system and Ubuntu. Here is a method not using Samba or SSH.
