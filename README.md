@@ -40,3 +40,11 @@ Then reboot our Ubuntu, using
 ```
 sudo reboot
 ```
+
+### Let the journey commence!
+
+In the first lab, "Datalab", I found a quirky behaviour in my Ubuntu. My compiler would fail when I make the btest according to the guide, maybe because my Ubuntu is not compatible(?) with the -m32 option. So in order to make btest, type
+```
+gcc -o btest bits.c btest.c decl.c tests.c
+```
+instead of "> make btest".
