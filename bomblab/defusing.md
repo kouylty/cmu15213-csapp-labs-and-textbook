@@ -304,8 +304,6 @@ Type in gdb and get
 
 It's really like a binary tree.
 
-![image-20250122231321015](C:\Users\kouyl\AppData\Roaming\Typora\typora-user-images\image-20250122231321015.png)
-
 Specially, it is a binary search tree.
 
 ```cpp
