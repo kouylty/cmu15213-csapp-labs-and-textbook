@@ -6,6 +6,8 @@ This repository serves as a personal study record of cmu15-213, Introduction to 
 
 Course website: https://www.cs.cmu.edu/~213/
 
+https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/
+
 Lab handout website: http://csapp.cs.cmu.edu/3e/labs.html
 
 Since most of the labwork should be done and evaluated on a linux system, I record some key processes of building a utilizable Ubuntu system here.
