@@ -59,4 +59,4 @@ cat exploit.txt | ./hex2raw | ./ctarget -q
 (gdb) run -q
 ```
 
-Otherwise it would fail with "invalid host [Virtualbox]".
+Otherwise it would fail with ```FAILED: Initialization error: Running on an illegal host [virtualbox]```.
