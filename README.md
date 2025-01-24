@@ -50,3 +50,13 @@ In the first lab, "Datalab", I found a quirky behaviour in my Ubuntu. My compile
 gcc -o btest bits.c btest.c decl.c tests.c
 ```
 instead of "> make btest".
+
+In "Attacklab", if the taegets are run in a virtualbox, only use command line
+
+```
+./ctarget -q
+cat exploit.txt | ./hex2raw | ./ctarget -q
+(gdb) run -q
+```
+
+Otherwise it would fail with "invalid host [Virtualbox]".
