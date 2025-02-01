@@ -136,5 +136,9 @@ Example usages:
     Bit Representation 0x00e822bb, sign = 0, exponent = 0x01, fraction = 0x6822bb
     Normalized.  +1.8135598898 X 2^(-126)
 
+####
 
+I found a quirky behaviour in my Ubuntu. My compiler would fail when I make the btest according to the guide, maybe because my Ubuntu is not compatible(?) with the -m32 option. So in order to make btest, type
 
+gcc -o btest bits.c btest.c decl.c tests.c
+instead of "> make btest".
