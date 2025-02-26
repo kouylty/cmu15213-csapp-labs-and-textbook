@@ -78,4 +78,4 @@ then open the ```config.h``` file and edit the trace to
 #define TRACEDIR "./trace/"
 ```
 
-and it will work
+and it will work.
