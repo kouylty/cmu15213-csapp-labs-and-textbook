@@ -18,13 +18,6 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-Methods to compile and run C programs using linux terminal is
-```
-gcc -std=c11 prog.c
-gcc -o prog prog.c
-./prog
-```
-
 To resize the screen and enhance user's visualization experience, choose the "Devices" on the menu of the virtualbox and click on the icon "Insert guest additions". Then there appears a disk icon on the table of Ubuntu files, click it and click the "Run software" icon. Then just wait the procedure to finish automatically.
 
 Moreover, it is useful to share files between our Windows system and Ubuntu. Here is a method not using Samba or SSH.
@@ -60,3 +53,29 @@ cat exploit.txt | ./hex2raw | ./ctarget -q
 ```
 
 Otherwise it would fail with ```FAILED: Initialization error: Running on an illegal host [virtualbox]```.
+
+In "Malloclab", if the makefile returns with an error like
+
+```
+bits/libc-header-start.h: No such file or directory
+```
+
+then type in terminal
+
+```
+sudo apt-get install gcc-multilib
+```
+
+if the mdriver program returns with an error like
+
+```
+Could not open ... /amptjp-bal.rep in read_trace: No such file or directory
+```
+
+then open the ```config.h``` file and edit the trace to 
+
+```
+#define TRACEDIR "./trace/"
+```
+
+and it will work
