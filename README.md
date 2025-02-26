@@ -66,7 +66,7 @@ then type in terminal
 sudo apt-get install gcc-multilib
 ```
 
-if the mdriver program returns with an error like
+If the mdriver program returns with an error like
 
 ```
 Could not open ... /amptjp-bal.rep in read_trace: No such file or directory
