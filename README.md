@@ -46,7 +46,9 @@ gcc -o btest bits.c btest.c decl.c tests.c
 ```
 instead of "> make btest".
 
-In "Attacklab", if the taegets are run in a virtualbox, only use command line
+Or it can also be done by recoding the makefile.
+
+In "Attacklab", if the targets are run in a virtualbox, only use command line
 
 ```
 ./ctarget -q
