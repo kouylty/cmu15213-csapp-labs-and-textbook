@@ -2,7 +2,9 @@
 
 Created by kouylty, at 2024/12/30.
 
-This repository serves as a personal study record of cmu15-213, Introduction to Computer Systems.
+This repository serves as a personal study record of cmu15-213, Computer Systems: A programmer's Perspective. It contains my trajectory of solving the labs and my notes when reading the textbook.
+
+In this readme below, I record some notes about the environment settings, from the easy building of the linux system, to the particular lab environment adjustments.
 
 Course website: https://www.cs.cmu.edu/~213/
 
@@ -79,3 +81,9 @@ then open the ```config.h``` file and edit the trace to
 ```
 
 and it will work.
+
+In the last lab "Proxylab", if the ```./driver.sh``` encounters a time-out termination at the concurrency evaluation part, change line 301 of the shellcode to
+
+```
+python3 ./nop-server.py ${nop_port} &> /dev/null &
+```
